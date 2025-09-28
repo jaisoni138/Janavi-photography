@@ -4,7 +4,7 @@ import { Button } from 'primereact/button';
 import { Dialog } from 'primereact/dialog';
 import { Carousel } from 'primereact/carousel';
 import { Card } from 'primereact/card';
-import { InputText } from 'primereact/inputtext';
+iimport { InputTextarea } from 'primereact/inputtextarea';
 import { Textarea } from 'primereact/textarea';
 
 const samplePhotos = [
