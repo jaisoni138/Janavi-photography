@@ -102,11 +102,6 @@ export default function PhotographyHome() {
       </Dialog>
       <Dialog header="Get in touch" visible={contactVisible} style={{ width: '40vw', minWidth: '320px' }} onHide={() => setContactVisible(false)}>
         <form className="grid gap-3">
-          <InputText placeholder="Name" />
-          <InputText placeholder="Email" />
-          <InputText placeholder="Subject" />
-          <Textarea rows={4} placeholder="Message" />
-          <div className="flex justify-end">
             <Button label="Send" icon="pi pi-paper-plane" />
           </div>
         </form>
