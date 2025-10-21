@@ -100,9 +100,6 @@ export default function PhotographyHome() {
           <img src={activePhoto.src} alt={activePhoto.title} className="w-full h-auto object-contain" />
         </div>
       </Dialog>
-    
-          </div>
-        </form>
       </Dialog>
     </div>
   );
