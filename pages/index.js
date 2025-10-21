@@ -4,7 +4,6 @@ import { Button } from 'primereact/button';
 import { Dialog } from 'primereact/dialog';
 import { Carousel } from 'primereact/carousel';
 import { Card } from 'primereact/card';
-import { InputTextarea } from 'primereact/inputtextarea';
 
 const samplePhotos = [
   { id: 1, src: '/photos/photo1.jpg', title: 'Coastline at Dawn' },
