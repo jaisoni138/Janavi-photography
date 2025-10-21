@@ -100,7 +100,7 @@ export default function PhotographyHome() {
           <img src={activePhoto.src} alt={activePhoto.title} className="w-full h-auto object-contain" />
         </div>
       </Dialog>
-      <Dialog header="Get in touch" visible={contactVisible} style={{ width: '40vw', minWidth: '320px' }} onHide={() => setContactVisible(false)}>
+    
           </div>
         </form>
       </Dialog>
